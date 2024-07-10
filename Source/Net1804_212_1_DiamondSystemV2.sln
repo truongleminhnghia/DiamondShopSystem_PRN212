@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondShopSys.Data", "Diam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondShopSys.Common", "DiamondShopSys.Common\DiamondShopSys.Common.csproj", "{27234C4D-CF7B-4D1B-BB01-D8B5DDCD4484}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondShopSysBusiness", "DiamondShopSysBussiness\DiamondShopSysBusiness.csproj", "{5568E618-8CF3-4A90-A125-0D52CFC6E99E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondShopSys.Business", "DiamondShopSysBussiness\DiamondShopSys.Business.csproj", "{5568E618-8CF3-4A90-A125-0D52CFC6E99E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondShopSys.WPFApp", "DiamondShopSys.WPFApp\DiamondShopSys.WPFApp.csproj", "{E34705E8-1873-4594-88BC-35CE5ED218D8}"
 EndProject

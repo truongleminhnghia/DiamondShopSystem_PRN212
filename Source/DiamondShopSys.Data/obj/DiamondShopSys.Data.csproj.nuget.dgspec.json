@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Data\\DiamondShopSys.Data.csproj": {}
+    "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Data\\DiamondShopSys.Data.csproj": {}
   },
   "projects": {
-    "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Data\\DiamondShopSys.Data.csproj": {
+    "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Data\\DiamondShopSys.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Data\\DiamondShopSys.Data.csproj",
+        "projectUniqueName": "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Data\\DiamondShopSys.Data.csproj",
         "projectName": "DiamondShopSys.Data",
-        "projectPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Data\\DiamondShopSys.Data.csproj",
-        "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Data\\obj\\",
+        "projectPath": "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Data\\DiamondShopSys.Data.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\minhn\\.nuget\\packages": {},
+          "C:\\Users\\Asus\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,6 +59,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

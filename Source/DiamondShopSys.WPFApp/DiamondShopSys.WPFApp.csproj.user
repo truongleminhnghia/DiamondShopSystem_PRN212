@@ -33,6 +33,15 @@
     <Page Update="UI\Companies\wSearchCompany.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UI\Customers\WCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Customers\WSearchCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Customers\WViewCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UI\Products\wProduct.xaml">
       <SubType>Designer</SubType>
     </Page>

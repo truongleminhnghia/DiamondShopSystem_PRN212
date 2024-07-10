@@ -27,6 +27,12 @@
                     <MenuItem Header="Search Company" IsCheckable="False" FontSize="10" Click="Open_wSearchCompany_Click">
                     </MenuItem>
                 </MenuItem>
+                <MenuItem Header="Customer" IsCheckable="False" FontSize="12" >
+                    <MenuItem Header="Customer" IsCheckable="False" FontSize="10" Click="Open_wCustomer_Click">
+                    </MenuItem>
+                    <MenuItem Header="SearchCustomer" IsCheckable="False" FontSize="10" Click="Open_wSearchCustomer_Click">
+                    </MenuItem>
+                </MenuItem>
             </MenuItem>
         </Menu>
     </Grid>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Common\\DiamondShopSys.Common.csproj": {}
+    "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Common\\DiamondShopSys.Common.csproj": {}
   },
   "projects": {
-    "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Common\\DiamondShopSys.Common.csproj": {
+    "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Common\\DiamondShopSys.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Common\\DiamondShopSys.Common.csproj",
+        "projectUniqueName": "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Common\\DiamondShopSys.Common.csproj",
         "projectName": "DiamondShopSys.Common",
-        "projectPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Common\\DiamondShopSys.Common.csproj",
-        "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSys.Common\\obj\\",
+        "projectPath": "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Common\\DiamondShopSys.Common.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT\\SE5\\PRN212\\DiamondShopSystem_PRN212\\Source\\DiamondShopSys.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\minhn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\minhn\\.nuget\\packages": {},
+          "C:\\Users\\Asus\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

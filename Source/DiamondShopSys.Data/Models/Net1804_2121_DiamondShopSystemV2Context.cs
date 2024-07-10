@@ -2,7 +2,9 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using DiamondShopSystem.Data.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace DiamondShopSys.Data.Models;
 
@@ -17,9 +19,27 @@ public partial class Net1804_2121_DiamondShopSystemV2Context : DbContext
     {
     }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-      => optionsBuilder.UseSqlServer("Server=NGHIA_TLM\\NGHIATLM;Database= Net1804_212-1_DiamondShopSystemV2;UID=sa;PWD=12345;TrustServerCertificate=True");
+    public static string GetConnectionString(string connectionStringName)
+    {
+        var config = new ConfigurationBuilder()
+            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+            .AddJsonFile("appsettings.json")
+            .Build();
 
+        string connectionString = config.GetConnectionString(connectionStringName);
+        return connectionString;
+    }
+
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        => optionsBuilder.UseSqlServer(GetConnectionString("DefaultConnection"));
+
+
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //  => optionsBuilder.UseSqlServer("Server=NGHIA_TLM\\NGHIATLM;Database= Net1804_212-1_DiamondShopSystemV2;UID=sa;PWD=12345;TrustServerCertificate=True");
+
+    public virtual DbSet<Customer> Customers { get; set; }
+    public virtual DbSet<Order> Orders { get; set; }
     public virtual DbSet<Category> Categories { get; set; }
 
     public virtual DbSet<Company> Companies { get; set; }
@@ -52,6 +72,23 @@ public partial class Net1804_2121_DiamondShopSystemV2Context : DbContext
             entity.Property(e => e.IsActive).HasDefaultValue(true);
             entity.Property(e => e.Phone).HasMaxLength(50);
             entity.Property(e => e.Website).HasMaxLength(200);
+        });
+
+        modelBuilder.Entity<Customer>(entity =>
+        {
+            entity.ToTable("Customer");
+
+            entity.Property(e => e.CustomerId).HasColumnName("CustomerID");
+            entity.Property(e => e.CreateDate).HasColumnType("datetime");
+            entity.Property(e => e.CustomerName).HasMaxLength(200);
+            entity.Property(e => e.Email).HasMaxLength(50);
+            entity.Property(e => e.Gender).HasMaxLength(50);
+            entity.Property(e => e.ImgUrl)
+                .HasMaxLength(50)
+                .IsFixedLength();
+            entity.Property(e => e.Password).HasMaxLength(50);
+            entity.Property(e => e.Phone).HasMaxLength(10);
+            entity.Property(e => e.UpdateTime).HasColumnType("datetime");
         });
 
         modelBuilder.Entity<Product>(entity =>

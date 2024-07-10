@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSys.WPFApp\obj\Debug\net8.0-windows\
+D:\FPT\SE5\PRN212\DiamondShopSystem_PRN212\Source\DiamondShopSys.WPFApp\obj\Debug\net8.0-windows\
 DiamondShopSys.WPFApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSys.WPFApp\App.xaml
-6-869577493
+D:\FPT\SE5\PRN212\DiamondShopSystem_PRN212\Source\DiamondShopSys.WPFApp\App.xaml
+9935544408
 
-11-1370110296
-2411325460144
-MainWindow.xaml;UI\Companies\wCompany.xaml;UI\Companies\wSearchCompany.xaml;UI\Products\wProduct.xaml;UI\Products\wProductDetail.xaml;UI\Products\wSearchProduct.xaml;
+14-56229272
+247538805402
+MainWindow.xaml;UI\Companies\wCompany.xaml;UI\Companies\wSearchCompany.xaml;UI\Customers\WCustomer.xaml;UI\Customers\WSearchCustomer.xaml;UI\Customers\WViewCustomer.xaml;UI\Products\wProduct.xaml;UI\Products\wProductDetail.xaml;UI\Products\wSearchProduct.xaml;
 
 True
 
