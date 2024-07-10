@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DiamondShopSys.WPFApp.UI.Products"
         mc:Ignorable="d"
-        Title="Product"  Background="LightBlue" Height="450" Width="1000">
+        Title="Product"  Background="#FFD4F7D4" Height="450" Width="1000" FontFamily="Arial" FontSize="14" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Orientation="Vertical" >
             <GroupBox Header="Product Form" Margin="10" >
@@ -24,7 +24,7 @@
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Row="0" Grid.Column="0" Content="ID" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <Label Grid.Row="0" Grid.Column="0" Content="ID" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                     <TextBox Grid.Row="0" Grid.Column="1" x:Name="ProductId" Height="25" Text="{Binding Path=Product.ProductId, Mode=TwoWay}" IsReadOnly="True" Margin="5" Width="180" HorizontalAlignment="Left" TextAlignment="Center" VerticalContentAlignment="Center"/>
                     <Label Grid.Row="0" Grid.Column="2" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Center" />
                     <TextBox Grid.Row="0" Grid.Column="3" x:Name="ProductName" Height="25" Text="{Binding Path=Product.ProductName, Mode=TwoWay}" Margin="5" Width="180" HorizontalAlignment="Left" TextAlignment="Center" VerticalContentAlignment="Center"/>
@@ -56,13 +56,13 @@
 
             <StackPanel Height="210">
                 <DataGrid x:Name="grdProduct" AutoGenerateColumns="False" ItemsSource="{Binding Prodcut}" CanUserAddRows="False" Height="195"
-                         MouseDoubleClick="grdProduct_MouseDouble_Click" SelectionMode="Single" SelectionUnit="FullRow">
+                         MouseDoubleClick="grdProduct_MouseDouble_Click" SelectionMode="Single" SelectionUnit="FullRow" SelectionChanged="grdProduct_SelectionChanged">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ID" Binding="{Binding ProductId}" Visibility="Visible" Foreground="#FF0E1CED"/>
                         <DataGridTextColumn Header="Name" Binding="{Binding ProductName}" Width="80" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Diamond" Binding="{Binding Diamond}" Width="120" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Brand" Binding="{Binding Brand}" Width="60" Visibility="Visible"/>
-                        <DataGridTextColumn Header="CategoryId" Binding="{Binding CategoryId}" Width="70" IsReadOnly="True"/>
+                        <DataGridTextColumn Header="Category" Binding="{Binding CategoryId}" Width="70" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="80" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Size" Binding="{Binding Size}" Width="40" IsReadOnly="True"/>
                         <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="60" IsReadOnly="True"/>

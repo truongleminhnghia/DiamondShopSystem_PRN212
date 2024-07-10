@@ -9,7 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DiamondShopSysBussiness\DiamondShopSysBussines.csproj" />
+    <ProjectReference Include="..\DiamondShopSysBussiness\DiamondShopSysBusiness.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UI\Company\" />
   </ItemGroup>
 
 </Project>

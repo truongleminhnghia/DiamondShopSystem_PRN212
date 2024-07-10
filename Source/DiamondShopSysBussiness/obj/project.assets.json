@@ -2788,9 +2788,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\DiamondShopSysBussines.csproj",
-      "projectName": "DiamondShopSysBussines",
-      "projectPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\DiamondShopSysBussines.csproj",
+      "projectUniqueName": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\DiamondShopSysBusiness.csproj",
+      "projectName": "DiamondShopSysBusiness",
+      "projectPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\DiamondShopSysBusiness.csproj",
       "packagesPath": "C:\\Users\\minhn\\.nuget\\packages\\",
       "outputPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\obj\\",
       "projectStyle": "PackageReference",
@@ -2803,6 +2803,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\minhn\\.nuget\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

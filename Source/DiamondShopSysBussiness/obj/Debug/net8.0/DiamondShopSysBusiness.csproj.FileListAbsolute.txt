@@ -1,0 +1,6 @@
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.csproj.AssemblyReference.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.AssemblyInfoInputs.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.AssemblyInfo.cs
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.csproj.CoreCompileInputs.cache
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.sourcelink.json

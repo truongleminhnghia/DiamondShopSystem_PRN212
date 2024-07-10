@@ -1081,7 +1081,7 @@
           "bin/placeholder/DiamondShopSys.Data.dll": {}
         }
       },
-      "DiamondShopSysBussines/1.0.0": {
+      "DiamondShopSysBusiness/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1089,10 +1089,10 @@
           "DiamondShopSys.Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DiamondShopSysBussines.dll": {}
+          "bin/placeholder/DiamondShopSysBusiness.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DiamondShopSysBussines.dll": {}
+          "bin/placeholder/DiamondShopSysBusiness.dll": {}
         }
       }
     }
@@ -2922,15 +2922,15 @@
       "path": "../DiamondShopSys.Data/DiamondShopSys.Data.csproj",
       "msbuildProject": "../DiamondShopSys.Data/DiamondShopSys.Data.csproj"
     },
-    "DiamondShopSysBussines/1.0.0": {
+    "DiamondShopSysBusiness/1.0.0": {
       "type": "project",
-      "path": "../DiamondShopSysBussiness/DiamondShopSysBussines.csproj",
-      "msbuildProject": "../DiamondShopSysBussiness/DiamondShopSysBussines.csproj"
+      "path": "../DiamondShopSysBussiness/DiamondShopSysBusiness.csproj",
+      "msbuildProject": "../DiamondShopSysBussiness/DiamondShopSysBusiness.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "DiamondShopSysBussines >= 1.0.0"
+      "DiamondShopSysBusiness >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2954,14 +2954,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\minhn\\.nuget\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\DiamondShopSysBussines.csproj": {
-              "projectPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\DiamondShopSysBussines.csproj"
+            "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\DiamondShopSysBusiness.csproj": {
+              "projectPath": "D:\\FPT_term\\Chuyên ngành 5\\PRN212\\demoV2\\SRC\\Net1804_212_1_DiamondSystemV2\\Source\\DiamondShopSysBussiness\\DiamondShopSysBusiness.csproj"
             }
           }
         }

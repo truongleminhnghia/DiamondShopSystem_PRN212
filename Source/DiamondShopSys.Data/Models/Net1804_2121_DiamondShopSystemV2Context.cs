@@ -17,12 +17,15 @@ public partial class Net1804_2121_DiamondShopSystemV2Context : DbContext
     {
     }
 
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+      => optionsBuilder.UseSqlServer("Server=NGHIA_TLM\\NGHIATLM;Database= Net1804_212-1_DiamondShopSystemV2;UID=sa;PWD=12345;TrustServerCertificate=True");
+
     public virtual DbSet<Category> Categories { get; set; }
+
+    public virtual DbSet<Company> Companies { get; set; }
 
     public virtual DbSet<Product> Products { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-      => optionsBuilder.UseSqlServer("Server=NGHIA_TLM\\NGHIATLM;Database= Net1804_212-1_DiamondShopSystemV2;UID=sa;PWD=12345;TrustServerCertificate=True");
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Category>(entity =>
@@ -35,6 +38,20 @@ public partial class Net1804_2121_DiamondShopSystemV2Context : DbContext
             entity.Property(e => e.CategoryName)
                 .HasMaxLength(150)
                 .HasColumnName("categoryName");
+        });
+
+        modelBuilder.Entity<Company>(entity =>
+        {
+            entity.ToTable("Company");
+
+            entity.Property(e => e.CompanyId).HasColumnName("CompanyID");
+            entity.Property(e => e.CompanyName).HasMaxLength(200);
+            entity.Property(e => e.Email).HasMaxLength(50);
+            entity.Property(e => e.FoundedDate).HasColumnType("datetime");
+            entity.Property(e => e.Industry).HasMaxLength(100);
+            entity.Property(e => e.IsActive).HasDefaultValue(true);
+            entity.Property(e => e.Phone).HasMaxLength(50);
+            entity.Property(e => e.Website).HasMaxLength(200);
         });
 
         modelBuilder.Entity<Product>(entity =>

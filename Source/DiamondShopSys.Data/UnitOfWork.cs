@@ -7,12 +7,21 @@ namespace DiamondShopSys.Data
     {
         private Net1804_2121_DiamondShopSystemV2Context _unitOfWorkContext;
         private ProductRepository _product;
+        private CompanyRepository _company;
 
         public ProductRepository productRepository
         {
             get
             {
                 return _product ??= new Repository.ProductRepository();
+            }
+        }
+
+        public CompanyRepository companyRepository
+        {
+            get
+            {
+                return _company ??= new Repository.CompanyRepository();
             }
         }
 
