@@ -1,4 +1,5 @@
 ﻿using DiamondShopSys.Data.Models;
+using DiamondShopSys.WPFApp.UI.Companies;
 using DiamondShopSys.WPFApp.UI.Products;
 using System.Text;
 using System.Windows;
@@ -35,6 +36,20 @@ namespace DiamondShopSys.WPFApp
             var p = new wSearchProduct();
             p.Owner = this;
             p.Show();
+        }
+
+        private void Open_wCompany_Click(object sender, RoutedEventArgs e)
+        {
+            var c = new wCompany();
+            c.Owner = this;
+            c.Show();
+        }
+
+        private void Open_wSearchCompany_Click(object sender, RoutedEventArgs e)
+        {
+            var c = new wSearchCompany();
+            c.Owner = this;
+            c.Show();
         }
     }
 }

@@ -56,7 +56,7 @@
 
             <StackPanel Height="210">
                 <DataGrid x:Name="grdProduct" AutoGenerateColumns="False" ItemsSource="{Binding Prodcut}" CanUserAddRows="False" Height="195"
-                         MouseDoubleClick="grdProduct_MouseDouble_Click" SelectionMode="Single" SelectionUnit="FullRow" SelectionChanged="grdProduct_SelectionChanged">
+                         MouseDoubleClick="grdProduct_MouseDouble_Click" SelectionMode="Single" SelectionUnit="FullRow">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ID" Binding="{Binding ProductId}" Visibility="Visible" Foreground="#FF0E1CED"/>
                         <DataGridTextColumn Header="Name" Binding="{Binding ProductName}" Width="80" IsReadOnly="True"/>

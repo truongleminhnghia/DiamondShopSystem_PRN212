@@ -22,6 +22,10 @@
                 <MenuItem Header="OrderDetail" IsCheckable="False" FontSize="12">
                 </MenuItem>
                 <MenuItem Header="Company" IsCheckable="False" FontSize="12">
+                    <MenuItem Header="Create Company" IsCheckable="False" FontSize="10" Click="Open_wCompany_Click">
+                    </MenuItem>
+                    <MenuItem Header="Search Company" IsCheckable="False" FontSize="10" Click="Open_wSearchCompany_Click">
+                    </MenuItem>
                 </MenuItem>
             </MenuItem>
         </Menu>

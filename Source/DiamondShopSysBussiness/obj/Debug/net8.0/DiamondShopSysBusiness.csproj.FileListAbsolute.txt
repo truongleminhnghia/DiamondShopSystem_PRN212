@@ -4,3 +4,15 @@ D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Sou
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.AssemblyInfo.cs
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.csproj.CoreCompileInputs.cache
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.sourcelink.json
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\bin\Debug\net8.0\DiamondShopSysBusiness.deps.json
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\bin\Debug\net8.0\DiamondShopSysBusiness.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\bin\Debug\net8.0\DiamondShopSysBusiness.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\bin\Debug\net8.0\DiamondShopSys.Common.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\bin\Debug\net8.0\DiamondShopSys.Data.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\bin\Debug\net8.0\DiamondShopSys.Common.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\bin\Debug\net8.0\DiamondShopSys.Data.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondS.E11B68EF.Up2Date
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\refint\DiamondShopSysBusiness.dll
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\DiamondShopSysBusiness.pdb
+D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSysBussiness\obj\Debug\net8.0\ref\DiamondShopSysBusiness.dll

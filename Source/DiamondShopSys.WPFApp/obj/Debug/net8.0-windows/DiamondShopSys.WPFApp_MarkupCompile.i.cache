@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\FPT_term\Chuyên ngành 5\PRN212\demoV2\SRC\Net1804_212_1_DiamondSystemV2\Source\DiamondShopSys.WPFApp\App.xaml
-4-145231640
+6-869577493
 
-9-1883593409
+11-1370110296
 2411325460144
-MainWindow.xaml;UI\Products\wProduct.xaml;UI\Products\wProductDetail.xaml;UI\Products\wSearchProduct.xaml;
+MainWindow.xaml;UI\Companies\wCompany.xaml;UI\Companies\wSearchCompany.xaml;UI\Products\wProduct.xaml;UI\Products\wProductDetail.xaml;UI\Products\wSearchProduct.xaml;
 
-False
+True
 

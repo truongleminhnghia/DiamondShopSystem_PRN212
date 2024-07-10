@@ -7,6 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="UI\Companies\wCompany.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UI\Companies\wSearchCompany.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UI\Products\wProduct.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,6 +25,12 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Companies\wCompany.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UI\Companies\wSearchCompany.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UI\Products\wProduct.xaml">

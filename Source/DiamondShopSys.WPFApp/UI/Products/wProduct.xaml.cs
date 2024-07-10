@@ -59,6 +59,7 @@ namespace DiamondShopSys.WPFApp.UI.Products
             Diamond.Text = string.Empty;
             Image.Text = string.Empty;
             Price.Text = string.Empty;
+            CategoryId.Text = string.Empty;
             Quantity.Text = string.Empty;
             Description.Text = string.Empty;
             Status.Text = string.Empty;

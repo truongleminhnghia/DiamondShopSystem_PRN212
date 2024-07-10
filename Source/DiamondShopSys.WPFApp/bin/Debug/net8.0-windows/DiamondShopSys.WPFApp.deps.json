@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "DiamondShopSys.WPFApp/1.0.0": {
         "dependencies": {
-          "DiamondShopSysBussines": "1.0.0"
+          "DiamondShopSysBusiness": "1.0.0"
         },
         "runtime": {
           "DiamondShopSys.WPFApp.dll": {}
@@ -557,13 +557,13 @@
           "DiamondShopSys.Data.dll": {}
         }
       },
-      "DiamondShopSysBussines/1.0.0": {
+      "DiamondShopSysBusiness/1.0.0": {
         "dependencies": {
           "DiamondShopSys.Common": "1.0.0",
           "DiamondShopSys.Data": "1.0.0"
         },
         "runtime": {
-          "DiamondShopSysBussines.dll": {}
+          "DiamondShopSysBusiness.dll": {}
         }
       }
     }
@@ -983,7 +983,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DiamondShopSysBussines/1.0.0": {
+    "DiamondShopSysBusiness/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
